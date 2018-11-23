@@ -1,0 +1,244 @@
+body {
+  background-color: #f6f7fb;
+  margin:0;
+}
+
+
+.logo {
+  height: 55px;
+  width: auto;
+
+  margin-top: 17px;
+  margin-left: 50px;
+}
+
+
+/* Nav bar */
+
+.navbar {
+  overflow: hidden;
+  background-color: #f6f7fb;
+  
+  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1; /*puts nav bar over the divs*/
+}
+
+
+.nav_home {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.nav_about {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  z-index:0;
+
+  padding-top: 40px;
+  margin-right: 100px;
+
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+
+.nav_projects {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+
+  padding-top: 40px;
+  margin-right: 50px;
+
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+
+.nav_projects:hover {
+  color: #a7a7a7;
+  transition: 0.3s;
+}
+
+
+.nav_about:hover {
+  color: #a7a7a7;
+  border-bottom: 2px solid #a7a7a7;
+  transition: 0.3s;
+}
+
+
+/* Add box shaddow to nav bar when scrolled down */
+
+.scrolled {
+  box-shadow: 10px 25px 50px -5px rgba(190,190,190,1);
+  transition: 0.5s;
+}
+
+
+/* Heading */
+
+h1 {
+  font-size: 55px;
+  font-family: 'Roboto';
+  font-weight: 900;
+    
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Picture of me and description */
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* Table cell with my picture */
+
+.picture_table_cell {
+  width: 400px;
+}
+
+
+/* Picture of me */
+
+img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+
+/* Table cell with description */
+
+.description_table_cell {
+  padding-left: 50px;
+  width: 500px;
+  min-width: 400px;
+}
+
+
+/* Description text */
+
+p {
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+/* Description below table viewed on mobile */
+
+.mobile_description {
+  display: none;
+}
+
+
+/* Company and email links inside description */
+
+.description_links {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 20px;
+  
+  color: black;
+  text-decoration: none;
+  border-bottom: 1.5px solid black;
+}
+
+
+/* Change links to gray when hovered */
+
+.description_links:hover {
+  color: #a7a7a7;
+  transition: 0.4s;
+  border-bottom: 1.5px solid #a7a7a7;
+}
+
+
+footer {
+  font-family: 'PT Serif', serif;
+  font-size: 15px;
+
+  text-align: right;
+  margin-top: 200px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+  h1 {
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .picture_table_cell {
+    width: 325px;
+  }
+
+
+  .picture_of_me {
+    width: 250px;
+    height: 250px;
+    margin-left: 37px;
+  }
+
+
+  .description_table_cell {
+    display: none;
+  }
+
+
+  .mobile_description {
+    display: block;
+    margin-top: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 520px) {
+
+  .logo {
+    display: none;
+  }
+
+}
