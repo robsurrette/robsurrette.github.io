@@ -241,10 +241,6 @@ footer {
 
 @media only screen and (max-width: 520px) {
 
-  .logo {
-    display: none;
-  }
-
   .nav_about {
     margin-right: 30px;
   }
