@@ -245,4 +245,12 @@ footer {
     display: none;
   }
 
+  .nav_about {
+    margin-right: 10px;
+  }
+
+  footer {
+    margin-right: 15px;
+  }
+
 }
