@@ -242,9 +242,9 @@ footer {
 @media only screen and (max-width: 520px) {
 
   .logo {
-    height: 40px;
+    height: 30px;
     width: auto;
-    margin-top: 17px;
+    margin-top: 30px;
     margin-left: 30px;
   }
 
