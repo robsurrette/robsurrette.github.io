@@ -252,6 +252,15 @@ footer {
     margin-right: 30px;
   }
 
+  /*disable slide animation on mobile*/
+  .come-in {
+    transform: translateY(10000px);
+    animation: come-in 0.0s ease forwards;
+  }
+  .come-in:nth-child(odd) {
+    animation-duration: 0.0s;
+  }
+
   footer {
     margin-right: 30px;
   }
