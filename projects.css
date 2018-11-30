@@ -108,7 +108,7 @@ h1 {
 /* Add box shaddow to nav bar when scrolled down */
 
 .scrolled {
-  box-shadow: 10px 25px 50px -5px rgba(190,190,190,1);
+  box-shadow: 10px 25px 50px -5px rgba(220,220,220,0.5);
   transition: 0.5s;
 }
 
@@ -128,7 +128,7 @@ h1 {
 /* Slide in animation */
 
 .come-in {
-  transform: translateY(10000px);
+  transform: translateY(2500px);
   animation: come-in 0.7s ease forwards;
 }
 .come-in:nth-child(odd) {
@@ -223,7 +223,7 @@ footer {
 
 
   img {
-    width: 90%;
+    width: 100%;
     height: auto;
     align-content: center;
   }
