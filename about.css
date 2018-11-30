@@ -92,7 +92,7 @@ body {
 /* Add box shaddow to nav bar when scrolled down */
 
 .scrolled {
-  box-shadow: 10px 25px 50px -5px rgba(190,190,190,1);
+  box-shadow: 10px 25px 50px -5px rgba(220,220,220,0.5);
   transition: 0.5s;
 }
 
@@ -178,7 +178,7 @@ p {
 
 .description_links:hover {
   color: #a7a7a7;
-  transition: 0.4s;
+  transition: 0.3s;
   border-bottom: 1.5px solid #a7a7a7;
 }
 
@@ -238,7 +238,18 @@ footer {
 @media only screen and (max-width: 520px) {
 
   .logo {
-    display: none;
+    height: 30px;
+    width: auto;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  .nav_about {
+    margin-right: 30px;
+  }
+
+  footer {
+    margin-right: 30px;
   }
 
 }
