@@ -237,6 +237,10 @@ footer {
 
 @media only screen and (max-width: 520px) {
 
+  h1 {
+    font-size: 35px;
+  }
+
   .logo {
     height: 30px;
     width: auto;
@@ -246,6 +250,13 @@ footer {
 
   .nav_about {
     margin-right: 30px;
+  }
+
+  .mobile_description {
+    display: block;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   footer {
