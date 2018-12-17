@@ -1,11 +1,30 @@
 body {
-  background-color: #f6f7fb;
+  background-color: #f9f9f9;
   margin:0;
+  color: #282a2d;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  color: #333538;
+  margin-bottom: 25px;
+  
+/*font-size: 16px;
+font-family: 'Roboto';
+font-weight: 400;*/
+
+font-family: 'PT Serif', serif;
+font-size: 17px;
+
+  text-align: center;
 }
 
 
 .logo {
   height: 55px;
+
   width: auto;
 
   margin-top: 17px;
@@ -17,9 +36,9 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #f6f7fb;
+  background-color: #f9f9f9;
   color: black;
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   width: 100%;
   height: 100px;
@@ -49,6 +68,7 @@ body {
   padding-top: 40px;
   margin-right: 100px;
   
+  color: #282a2d;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -70,6 +90,7 @@ body {
   text-decoration: none;
   border-bottom: 2px solid black;
 
+  color: #282a2d;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -93,11 +114,12 @@ body {
 /* Heading */
 
 h1 {
+  color: #282a2d;
   font-size: 55px;
   font-family: 'Roboto';
   font-weight: 900;
 
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -115,12 +137,18 @@ h1 {
 
 /* Project boxes */
 
+
+
 .module {
-  border-radius: 15px;
+border-radius: 15px;
+/*border-radius: 0px 0px 15px 15px;*/
+
   background: white;
-  margin: 100px auto 100px auto;
-  max-width: 700px;
-  height: 400px;
+  margin: 100px auto 150px auto;
+  /*max-width: 700px;*/
+width: 700px;
+/*height: 415px;*/
+height: 510px;
   box-shadow: 10px 25px 50px -5px rgba(196,196,196,1);
 }
 
@@ -147,6 +175,7 @@ h1 {
 /* Project titles */
 
 h2 {
+  color: #282a2d;
   font-size: 30px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -166,23 +195,31 @@ h2 {
 
 /* Company logo */
 
-.project1_company_logo {
+.project_company_logo {
   height: 17px;
   width: auto;
-  
+}
+.project_company_logo_large {
+  height: 21px;
+  width: auto;
 }
 
 
 /* Project pictures */
 
 img {
-  height:220px;
+/*margin-top: 10px;*/
+/*height: 220px;*/
+border-radius: 15px 15px 0px 0px;
+
+height: 275px;
   width: 700px;
   align-content: center;
 }
 
 
 footer {
+  color: #282a2d;
   font-family: 'PT Serif', serif;
   font-size: 15px;
 
@@ -245,6 +282,7 @@ footer {
     font-size: 35px;
     padding-left: 20px;
     padding-right: 20px;
+    color: red;
   }
 
   .logo {
@@ -256,6 +294,10 @@ footer {
 
   .nav_about {
     margin-right: 30px;
+  }
+
+  p {
+  width: 250px;
   }
 
   footer {

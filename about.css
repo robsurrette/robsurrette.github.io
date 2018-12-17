@@ -1,5 +1,5 @@
 body {
-  background-color: #f6f7fb;
+  background-color: #f9f9f9;
   margin:0;
 }
 
@@ -17,10 +17,10 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #f6f7fb;
+  background-color: #f9f9f9;
   
   color: black;
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   width: 100%;
   height: 100px;
@@ -53,6 +53,7 @@ body {
   text-decoration: none;
   border-bottom: 2px solid black;
   
+  color: #282a2d;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -70,6 +71,7 @@ body {
   padding-top: 40px;
   margin-right: 50px;
 
+  color: #282a2d;
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -100,12 +102,13 @@ body {
 /* Heading */
 
 h1 {
+  color: #282a2d;
   font-size: 55px;
   font-family: 'Roboto';
   font-weight: 900;
     
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
@@ -139,6 +142,7 @@ img {
 /* Table cell with description */
 
 .description_table_cell {
+  color: #333538;
   padding-left: 50px;
   width: 500px;
   min-width: 400px;
@@ -157,6 +161,7 @@ p {
 /* Description below table viewed on mobile */
 
 .mobile_description {
+  color: #333538;
   display: none;
 }
 
@@ -164,11 +169,12 @@ p {
 /* Company and email links inside description */
 
 .description_links {
+  color: #333538;
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 20px;
   
-  color: black;
+  
   text-decoration: none;
   border-bottom: 1.5px solid black;
 }
@@ -184,6 +190,7 @@ p {
 
 
 footer {
+  color: #333538;
   font-family: 'PT Serif', serif;
   font-size: 15px;
 

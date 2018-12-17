@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+
 }
 
 
@@ -26,23 +27,11 @@ body, html {
 
 
 h1 {
+    color: #282a2d;
     font-size: 55px;
     font-family: 'Roboto';
     font-weight: 900;
 
-    text-align: left;
-    margin-top: 150px;
-    margin-left: 25px;
-    margin-bottom: 15px;
-}
-
-
-.my_name {
-    
-    font-size: 55px;
-    font-family: 'Roboto';
-    font-weight: 900;
-    
     text-align: left;
     margin-top: 150px;
     margin-left: 25px;
@@ -51,19 +40,21 @@ h1 {
 
 
 .description_links {
-    color: black;
+    color: #282a2d;
     text-decoration: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #282a2d;
 }
 
 
 .my_description {
+    color: #333538;
     font-family: 'PT Serif', serif;
     font-size: 30px;
 
     text-align: left;
     margin-left: 25px;
     margin-right: 25px;
+    line-height: 43px;
 }
 
 
