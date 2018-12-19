@@ -10,13 +10,9 @@ p {
   width: 425px;
   color: #333538;
   margin-bottom: 25px;
-  
-/*font-size: 16px;
-font-family: 'Roboto';
-font-weight: 400;*/
 
-font-family: 'PT Serif', serif;
-font-size: 17px;
+  font-family: 'PT Serif', serif;
+  font-size: 17px;
 
   text-align: center;
 }
@@ -137,18 +133,13 @@ h1 {
 
 /* Project boxes */
 
-
-
 .module {
-border-radius: 15px;
-/*border-radius: 0px 0px 15px 15px;*/
-
+  border-radius: 15px;
   background: white;
   margin: 100px auto 150px auto;
-  /*max-width: 700px;*/
-width: 700px;
-/*height: 415px;*/
-height: 510px;
+  width: 700px;
+  /*height: 415px;*/
+  height: 510px;
   box-shadow: 10px 25px 50px -5px rgba(196,196,196,1);
 }
 
@@ -208,11 +199,8 @@ h2 {
 /* Project pictures */
 
 img {
-/*margin-top: 10px;*/
-/*height: 220px;*/
-border-radius: 15px 15px 0px 0px;
-
-height: 275px;
+  border-radius: 15px 15px 0px 0px;
+  height: 275px;
   width: 700px;
   align-content: center;
 }
@@ -278,11 +266,14 @@ footer {
 
 @media only screen and (max-width: 520px) {
 
+  body {
+    display: block!important;
+  }
+
   h1 {
     font-size: 35px;
     padding-left: 20px;
     padding-right: 20px;
-    color: red;
   }
 
   .logo {
@@ -297,7 +288,7 @@ footer {
   }
 
   p {
-  width: 250px;
+    width: 250px;
   }
 
   footer {
