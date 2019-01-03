@@ -17,6 +17,10 @@ p {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 .logo {
   height: 55px;
@@ -144,8 +148,31 @@ h1 {
 }
 
 
-/* Slide in animation */
+/* Zoom image on hover */
 
+.container {
+  position: relative;
+  height: 275px;
+  width: 700px;
+  overflow: hidden;
+}
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.item img {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.container:hover .item img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/* Slide in animation */
+/*
 .come-in {
   transform: translateY(2500px);
   animation: come-in 0.7s ease forwards;
@@ -161,6 +188,7 @@ h1 {
 @keyframes come-in {
   to { transform: translateY(0); }
 }
+*/
 
 
 /* Project titles */
