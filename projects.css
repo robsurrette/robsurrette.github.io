@@ -21,19 +21,14 @@ a {
   text-decoration: none;
 }
 
-
 .logo {
   height: 55px;
-
   width: auto;
-
   margin-top: 17px;
   margin-left: 50px;
 }
 
-
 /* Nav bar */
-
 .navbar {
   overflow: hidden;
   background-color: #f9f9f9;
@@ -44,8 +39,6 @@ a {
   height: 100px;
   z-index: 1; /*puts nav bar over the divs*/
 }
-
-
 .nav_home {
   float: left;
   display: block;
@@ -54,8 +47,6 @@ a {
   text-decoration: none;
   font-size: 17px;
 }
-
-
 .nav_about {
   float: right;
   display: block;
@@ -72,10 +63,7 @@ a {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 900;
-
 }
-
-
 .nav_projects {
   float: right;
   display: block;
@@ -95,24 +83,17 @@ a {
   font-family: 'Roboto';
   font-weight: 900;
 }
-
-
 .nav_projects:hover {
   color: #a7a7a7;
   border-bottom: 2px solid #a7a7a7;
   transition: 0.3s;
 }
-
-
 .nav_about:hover {
   color: #a7a7a7;
   transition: 0.3s;
 }
 
-
-
 /* Heading */
-
 h1 {
   color: #282a2d;
   font-size: 55px;
@@ -123,20 +104,15 @@ h1 {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
-
 /* Add box shaddow to nav bar when scrolled down */
-
 .scrolled {
   box-shadow: 10px 25px 50px -5px rgba(220,220,220,0.5);
   transition: 0.5s;
 }
 
-
 /* Project boxes */
-
 .module {
   border-radius: 15px;
   background: white;
@@ -146,30 +122,6 @@ h1 {
   height: 510px;
   box-shadow: 10px 25px 50px -5px rgba(196,196,196,1);
 }
-
-
-/* Zoom image on hover */
-
-.container {
-  position: relative;
-  height: 275px;
-  width: 700px;
-  overflow: hidden;
-}
-.item {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.item img {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-.container:hover .item img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
 
 /* Slide in animation */
 /*
@@ -184,15 +136,12 @@ h1 {
   transform: translateY(0);
   animation: none;
 }
-
 @keyframes come-in {
   to { transform: translateY(0); }
 }
 */
 
-
 /* Project titles */
-
 h2 {
   color: #282a2d;
   font-size: 30px;
@@ -201,19 +150,15 @@ h2 {
   text-align: center;
 }
 
-
 /* Company name */
-
 .project_company {
   font-family: 'PT Serif', serif;
   font-size: 21px;
   text-align: center;
-
+  color: black;
 }
 
-
 /* Company logo */
-
 .project_company_logo {
   height: 17px;
   width: auto;
@@ -223,16 +168,13 @@ h2 {
   width: auto;
 }
 
-
 /* Project pictures */
-
 img {
   border-radius: 15px 15px 0px 0px;
   height: 275px;
   width: 700px;
   align-content: center;
 }
-
 
 footer {
   color: #282a2d;
@@ -246,7 +188,31 @@ footer {
 }
 
 
+@media only screen and (min-width: 850px) {
+  
+  /* Zoom image on hover */
+  .container {
+    position: relative;
+    height: 275px;
+    width: 700px;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .item img {
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .container:hover .item img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
+}
 
 
 @media only screen and (max-width: 850px) {
@@ -257,13 +223,11 @@ footer {
     padding-right: 20px;
   }
 
-
   h2 {
     font-size: 25px;
     padding-left: 10px;
     padding-right: 10px;
   }
-
 
   .module {
     border-radius: 15px;
@@ -274,22 +238,17 @@ footer {
     box-shadow: 10px 25px 50px -5px rgba(196,196,196,1);
   }
 
-
   img {
     width: 100%;
     height: auto;
     align-content: center;
   }
 
-
   .project_company {
     padding-bottom: 30px;
   }
 
 }
-
-
-
 
 
 @media only screen and (max-width: 520px) {
